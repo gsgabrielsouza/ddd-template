@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "gsgabrielsouza",
+  "classifications": [ "Common", "Code" ],
+  "identity": "DDD.Template",
+  "name": "Example Domain Drive Design Template",
+  "shortName": "dddtemplate",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  }
+}
