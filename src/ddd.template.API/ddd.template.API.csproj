@@ -23,9 +23,4 @@
     <ProjectReference Include="..\ddd.template.Infra\ddd.template.Infra.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="v1\Controllers\" />
-    <Folder Include="v1\" />
-  </ItemGroup>
-
 </Project>
