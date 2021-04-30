@@ -2,19 +2,19 @@
 
 namespace ddd.template.Domain.Extensions
 {
-    public static class JsonExtensions
+public static class JsonExtensions
+{
+    public static bool IsValid(string json)
     {
-        public static bool IsValid(string json)
+        try
         {
-            try
-            {
-                JsonDocument.Parse(json);
-                return true;
-            }
-            catch (JsonException)
-            {
-                return false;
-            }
+            JsonDocument.Parse(json);
+            return true;
+        }
+        catch (JsonException)
+        {
+            return false;
         }
     }
+}
 }

@@ -9,4 +9,8 @@
     <ProjectReference Include="..\ddd.template.Domain\ddd.template.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Service\v1\ViewModel\" />
+  </ItemGroup>
+
 </Project>
