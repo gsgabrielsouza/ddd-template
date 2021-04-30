@@ -5,4 +5,8 @@
     <RootNamespace>ddd_template.Infra</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ddd-template.Domain\ddd-template.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
