@@ -1,12 +1,31 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "gsgabrielsouza",
-  "classifications": [ "Common", "Code" ],
-  "identity": "DDD.Template",
+  "classifications": [
+    "Common",
+    "Code"
+  ],
+  "identity": "ddd.template",
   "name": "Example Domain Drive Design Template",
   "shortName": "dddtemplate",
   "tags": {
     "language": "C#",
-    "type": "item"
-  }
+    "type": "project"
+  },
+  "sourceName": "ddd-template",
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            ".vs/**/*",
+            ".gitignore",
+            ".git/**/*",
+            "README.md",
+            "LICENSE"
+          ]
+        }
+      ]
+    }
+  ]
 }
