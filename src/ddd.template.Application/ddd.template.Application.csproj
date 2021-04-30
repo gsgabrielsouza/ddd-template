@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>ddd_template.Application</RootNamespace>
+    <RootNamespace>ddd.template.Application</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ddd-template.Domain\ddd-template.Domain.csproj" />
+    <ProjectReference Include="..\ddd.template.Domain\ddd.template.Domain.csproj" />
   </ItemGroup>
 
 </Project>

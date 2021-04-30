@@ -2,11 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>ddd_template.Infra</RootNamespace>
+    <RootNamespace>ddd.template.Domain</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ddd-template.Domain\ddd-template.Domain.csproj" />
+    <Folder Include="Interfaces\Service\" />
+    <Folder Include="Enums\" />
   </ItemGroup>
 
 </Project>

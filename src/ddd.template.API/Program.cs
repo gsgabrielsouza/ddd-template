@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ddd_template.API
+namespace ddd.template.API
 {
     public class Program
     {

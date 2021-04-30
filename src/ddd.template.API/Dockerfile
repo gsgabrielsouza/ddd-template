@@ -7,16 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["ddd-template.API/ddd-template.API.csproj", "ddd-template.API/"]
-RUN dotnet restore "ddd-template.API/ddd-template.API.csproj"
+COPY ["ddd.template.API/ddd.template.API.csproj", "ddd.template.API/"]
+RUN dotnet restore "ddd.template.API/ddd.template.API.csproj"
 COPY . .
-WORKDIR "/src/ddd-template.API"
-RUN dotnet build "ddd-template.API.csproj" -c Release -o /app/build
+WORKDIR "/src/ddd.template.API"
+RUN dotnet build "ddd.template.API.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "ddd-template.API.csproj" -c Release -o /app/publish
+RUN dotnet publish "ddd.template.API.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ddd-template.API.dll"]
+ENTRYPOINT ["dotnet", "ddd.template.API.dll"]
