@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 
-namespace SiteMercado.Payment.Service.Infra.Map
+namespace ddd.template.Infra.Context.Map
 {
     /// <summary>
     /// Example

@@ -1,12 +1,12 @@
 ﻿using ddd.template.Domain.Entities;
+using ddd.template.Domain.Interfaces.Repository;
 using ddd.template.Domain.Interfaces.UnitOfWork;
-using ddd.template.Infra.Context;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ddd.template.Domain.Interfaces.Repository
+namespace ddd.template.Infra.Context.Repository
 {
     public class GenericAggragateRepository<TEntity> : IGenericRepository<TEntity> where TEntity : AggregateEntity
     {
