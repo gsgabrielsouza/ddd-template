@@ -14,7 +14,7 @@
     <ContentTargetFolders>content</ContentTargetFolders>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/gsgabrielsouza/ddd-template</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/gsgabrielsouza/ddd-template</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup>
