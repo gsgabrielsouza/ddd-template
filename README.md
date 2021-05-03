@@ -1,5 +1,5 @@
 # DDD Template
-This project is approach to create a new solution with DDD using CLI net core
+This project is approach to create a new solution with DDD using net core CLI 
 
 -----
 
