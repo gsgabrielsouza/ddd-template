@@ -32,6 +32,7 @@ namespace ddd.template.API.Extensions
             app
               .UseApiVersioning();
 
+            app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
                 foreach (var description in provider.ApiVersionDescriptions)

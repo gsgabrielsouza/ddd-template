@@ -1,5 +1,9 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using System;
+﻿using ddd.template.Application.Service.v1;
+using ddd.template.Domain.Interfaces.Repository;
+using ddd.template.Domain.Interfaces.Service;
+using ddd.template.Domain.Service;
+using ddd.template.Infra.Context.Repository;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace ddd.template.API.Extensions
 {
@@ -11,8 +15,12 @@ namespace ddd.template.API.Extensions
               .AddAppService()
               .AddServices();
 
-        private static IServiceCollection AddInfra(this IServiceCollection services) => throw new NotImplementedException();
-        private static IServiceCollection AddAppService(this IServiceCollection services) => throw new NotImplementedException();
-        private static IServiceCollection AddServices(this IServiceCollection services) => throw new NotImplementedException();
+        private static IServiceCollection AddInfra(this IServiceCollection services) =>
+         services
+             .AddScoped<IExampleRepository, ExampleRepository>();
+        private static IServiceCollection AddAppService(this IServiceCollection services) =>
+            services.AddScoped<ExampleAppService>();
+        private static IServiceCollection AddServices(this IServiceCollection services) =>
+            services.AddScoped<IExampleService, ExampleService>();
     }
 }
