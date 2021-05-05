@@ -3,7 +3,7 @@ This project is approach to create a new solution with DDD using net core CLI
 
 -----
 
-![version](https://img.shields.io/nuget/vpre/ddd.template.api?label=version)
+![version](https://img.shields.io/nuget/vpre/gs.ddd.template?label=version)
 
 **Project still in the development stage**
 
