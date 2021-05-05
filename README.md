@@ -11,7 +11,7 @@ This project is approach to create a new solution with DDD using net core CLI
 
  ## Install
 ```
-dotnet new --install ddd.template.api::0.1.0-beta
+dotnet new --install ddd.template.api::0.1.1-beta
 ```
 
 ----
