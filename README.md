@@ -11,7 +11,7 @@ This project is approach to create a new solution with DDD using net core CLI
 
  ## Install
 ```
-dotnet new --install gs.ddd.template::0.1.2-beta
+dotnet new --install gs.ddd.template 
 ```
 
 ----
