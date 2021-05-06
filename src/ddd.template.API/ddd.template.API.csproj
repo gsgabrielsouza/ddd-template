@@ -1,5 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-  <PropertyGroup>
+  <!--<PropertyGroup>
     <PackageType>Template</PackageType>
     <PackageVersion>0.1.1-beta</PackageVersion>
     <PackageId>ddd.template.api</PackageId>
@@ -15,7 +15,7 @@
     <NoWarn>$(NoWarn);NU5128</NoWarn>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/gsgabrielsouza/ddd-template</RepositoryUrl>
-  </PropertyGroup>
+  </PropertyGroup>-->
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>

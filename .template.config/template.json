@@ -13,14 +13,18 @@
     "type": "project"
   },
   "sourceName": "ddd.template",
+  "preferNameDirectory": true,
+ 
   "sources": [
     {
       "modifiers": [
         {
           "exclude": [
             ".vs/**/*",
-            ".gitignore",
             ".git/**/*",
+            "*.nuspec",
+            "*.nupkg",
+            "nuget.config",
             "README.md",
             "LICENSE"
           ]

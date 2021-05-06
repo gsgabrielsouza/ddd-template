@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>gs.ddd.template</id>
+    <title>Basic template for DDD</title>
+    <version>0.1.3-beta</version>
+    <authors>gsgabrielsouza</authors>
+    <description>Basic templates to use when creating an application.</description>
+    <language>en-US</language>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/gsgabrielsouza/ddd-template</projectUrl>
+    <releaseNotes>.</releaseNotes>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <tags>dotnet-new;templates;DDD</tags>
+    <!-- <icon>./content/icon.png</icon> -->
+   
+  </metadata>
+
+  <files>
+    <file src=".\**" target="content" exclude="**\bin\**;**\obj\**;**\.git\**;**\.github\**;**\*.user;**\.vs\**;**\.vscode\**" />
+  </files>
+</package>
